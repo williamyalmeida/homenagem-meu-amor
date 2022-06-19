@@ -109,7 +109,7 @@ section:nth-of-type(17) {
 
 .conteudo section.sessao-texto:last-child {
 
-    height: auto;
+    height: 80vh;
 }
 
 .conteudo p.texto-destaque:last-child {

@@ -20,17 +20,12 @@ body {
 
 section {
     width: 100%;
-    max-width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-
-
-
-
 
 
 .sessao-texto {
@@ -57,8 +52,6 @@ section {
     font-size: 6rem;
 }
 
-
-
 section:nth-of-type(1) {
     background-image: url(imagens-otimizadas/imagem1.jpg);
     position: relative;
@@ -77,50 +70,45 @@ section:nth-of-type(1)::after {
 
 section:nth-of-type(3) {
     background-image: url(imagens-otimizadas/imagem2.jpg);
+    background-position: center;
 }
 
 section:nth-of-type(5) {
     background-image: url(imagens-otimizadas/imagem3.jpg);
-    
 }
 
 section:nth-of-type(7) {
-    background-image: url(imagens-otimizadas/imagem5.jpg);
-    
+    background-image: url(imagens-otimizadas/imagem4.jpg);
+    background-position: top;
 }
 
 section:nth-of-type(9) {
-    background-image: url(imagens-otimizadas/imagem6.jpg);
+    background-image: url(imagens-otimizadas/imagem5.jpg);
     background-position: top;
-    
 }
 
 section:nth-of-type(11) {
+    background-image: url(imagens-otimizadas/imagem6.jpg);
+    background-position: center;
+}
+
+section:nth-of-type(13) {
     background-image: url(imagens-otimizadas/imagem7.jpg);
     background-position: center;
     
 }
 
-section:nth-of-type(13) {
-    background-image: url(imagens-otimizadas/imagem8.jpg);
-    background-position: top;
-    
-}
-
 section:nth-of-type(15) {
-    background-image: url(imagens-otimizadas/imagem9.jpg);
-    background-position: top;
-    
+    background-image: url(imagens-otimizadas/imagem8.jpg);
+    background-position: top; 
 }
 
 section:nth-of-type(17) {
-    background-image: url(imagens-otimizadas/imagem10.jpg);
-    background-position: top;
-    
+    background-image: url(imagens-otimizadas/imagem9.jpg);
+    background-position: center;
 }
 
 .conteudo section.sessao-texto:last-child {
-
     height: 80vh;
 }
 

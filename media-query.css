@@ -1,0 +1,14 @@
+@media  (max-width:500px) {
+    section:nth-of-type(7) {
+        background-image: url(imagem-500/imagem5.jpg);
+    }
+
+    section:nth-of-type(13) {
+        background-image: url(imagem-500/imagem7.jpg);
+    }
+
+    section:nth-of-type(17) {
+        background-image: url(imagem-500/imagem9.jpg);
+        background-position: center;
+    }
+}
